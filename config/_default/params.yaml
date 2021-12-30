@@ -6,7 +6,7 @@
 # Appearance
 
 theme: minimal
-day_night: true
+day_night: false
 font: ''
 font_size: L
 
@@ -15,45 +15,45 @@ font_size: L
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: ''
-twitter: ''
+description: 'Research outputs by Kayden Stockwell'
+twitter: 'KaydenStockwell'
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
-coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+email: ks6hv@virginia.edu
+#phone: 888 888 88 88
+#address:
+#  street: 450 Serra Mall
+#  city: Stanford
+#  region: CA
+#  postcode: '94305'
+#  country: United States
+#  country_code: US
+#coordinates:
+#  latitude: '37.4275'
+#  longitude: '-122.1697'
+#directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+#office_hours:
+#  - 'Monday 10:00 to 13:00'
+#  - 'Wednesday 09:00 to 10:00'
+#appointment_url: 'https://calendly.com'
+#contact_links:
+#  - icon: twitter
+#    icon_pack: fab
+#    name: DM Me
+#    link: 'https://twitter.com/Twitter'
+#  - icon: skype
+#    icon_pack: fab
+#    name: Skype Me
+#    link: 'skype:echo123?call'
+#  - icon: keybase
+#    icon_pack: fab
+#    name: Chat on Keybase
+#    link: 'https://keybase.io/'
+#  - icon: comments
+#    icon_pack: fas
+#    name: Discuss on Forum
+#    link: 'https://discourse.gohugo.io'
 
 # Site header
 
@@ -62,8 +62,8 @@ main_menu:
   align: l
   show_logo: true
   show_language: false
-  show_day_night: true
-  show_search: true
+  show_day_night: false
+  show_search: false
   highlight_active_link: true
 
 # Localization
@@ -89,9 +89,9 @@ edit_page:
     post: false
     book: false
 show_related:
-  book: true
-  page: false
-  post: true
+  book: false
+  page: true
+  post: false
   project: true
   publication: true
   event: true
@@ -110,6 +110,8 @@ plugins_js: []
 avatar:
   gravatar: false
   shape: circle
+  #Alt text of site avatar hard coded here. Update if you use a new image.
+  alt:  A white man with glasses wearing a blue sweater has his arms crossed. He is smiling and leaning on a brick wall.
 publications:
   date_format: January 2006
   citation_style: apa
@@ -123,16 +125,16 @@ breadcrumb:
 comments:
   provider: ''
   commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: ''
+    post: false
+    book: false
+    project: false
+    publication: false
+    event: false
+#  disqus:
+#    shortname: ''
+#    show_count: true
+#  commento:
+#    url: ''
 search:
   provider: wowchemy
   algolia:
@@ -140,10 +142,10 @@ search:
     api_key: ''
     index_name: ''
     show_logo: false
-map:
-  provider: ''
-  api_key: ''
-  zoom: 15
+#map:
+#  provider: ''
+#  api_key: ''
+#  zoom: 15
 marketing:
   google_analytics: ''
   google_tag_manager: ''
